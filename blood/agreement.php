@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Donor's Declaration</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    background: url(hand.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+   
+    
+    
+}
+.login-box{
+    width: 1020px;
+    height: 560px;
+    background: rgba(255, 255, 255, 0.575);
+    color: rgba(255, 255, 255, 0.753);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 30px;   
+    font-weight: 600;
+    
+}
+
+
+
+            
+    </style>
+  </head>
+  <body>
+
+
+    
+    <div class="login-box">
+        
+       <form action="controllerUserData.php" method="POST">
+      
+        <table class="table table-hover">
+           
+          <tr>
+            
+            <td colspan="4" class=" col-form-label"><p>Donor's Declaration</p>
+                 <ul>
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="කිසිදු පුද්ගලයෙකු ලාබයක් අපේක්ශාවෙන් තොරව,ස්වේච්ඡාවෙන් අද දින මා පරිත්‍යාග කරන රුධිරය අසරණ රෝගීන් ගේඑ යහපත වෙනුවෙන් ශ්‍රී ලංකා ජාතික රුධිර පාරවිලය සේවයට අවශ්‍ය අයුරින් යොදා ගැනීමට එකගතාවය පල කරමි.">I have read and understand the information regarding blood donation and answered all the above
+                         questions honestly and correctly and donating my blood voluntarily today,for the benefit of 
+                         patients.</li>
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="ලේ දන්දීමේදී මෙන්ම ඉන් පසුවත් ඒ පිලිබද ජාතික රුධිර පාරවිලයන සේවයේ උපදෙස් අනුව ක්‍රියා කරන අතර එසේ නොකිරීමෙන් සිදුවිය හැකිහානි පිලිබද වගකීම මම බාර ගනිමි.">I also agree to follow the instructions given to me by the NBTS,during and after blood donation
+                         and accept the responsibility of any consequences of not following those instructions.</li>
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="තවද මා පරිත්‍යාග කරන රුධිරය ඒඩ්ස,හෙපටයිට්ස් බී සහ සී,උපදංශය,මැලේරියාව යන රෝග ආසදනයන් සදහා හෝ ජා.රු.පා සේවයට අවශ්‍ය වෙනත් පරීක්ෂණයක් සදහා පරීක්ෂවට ලක් කිරීමට මාගෙ එකගතාවය පලකරමි.">Further,I give my consent to test my donated blood for HIV,Syphilis,Hepatitis B & C, Malaria
+                         and any other required test in any manner deemed appropriate by the NBTS Sri Lanka.</li>
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="එසේම ඉහත පරීක්ෂණවල ප්‍රතිපල ජාතික රුධිර පාරවිලයන සේවයට අවශ්‍ය අවස්ථාවලදී මා වෙත දන්වනු ලැබීමටත්,එවන් අවස්ථාවල දී ජාතික රුධිර පාරවිලයන සේවය මගින් දෙනු ලබන වැඩිදුර උපදෙස් අනුව ක්‍රියා කිරීමටත් මාගේ කැමැත්ත හා එකගතාවය පල කරමි">Further,I give my consent to be informed about the results of the above tests,as and when
+                         required by the NBTS and also to follow any instructions given to me in this regard by the NBTS.</li>
+                    <li data-bs-toggle="tooltip" data-bs-placement="bottom" title="දන්ඩ නීති සංග්‍රහයේ 262,263 වගන්ති අනුව දැනුවත්ව රෝගයක් පැතිරවීමට කටයුතු කිරීම දඩුවම් ලැබියහැකි වරදක් බව පිලිගනිමි.">I accept that,involving in intentionally spreading an infection is an offence according to the 
+                        sentences 262 and 263of the penal code.</li>
+                 </ul>
+            </td>
+           
+          </tr>
+
+          <tr>
+              
+              <td class="col-form-label" colspan="3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="යාවජීව/නිරන්තර රුධිර දායකයෙකු වශයෙන් අසරණ රෝගීන් වෙනුවෙන් ඉදිරියටත් රුධිර පරිත්‍යාග කිරීමට කැමැත්තෙමි."><p>I AM WILLING TO BE A REGULAR BLOOD DONOR TO SAVE MANY MORE HUMAN LIVES THROUGH DONATING BLOOD </p>
+              <div class="form-check-inline">
+                <input class="form-check-input" type="radio" name="timeA"  value="Once in a 4 months" required>
+                <label class="form-check-label">
+                  Once in a 4 months
+                </label>
+                <div class="form-check-inline">
+                <input class="form-check-input" type="radio" name="timeA"  value="Once in a 6 months" required>
+                <label class="form-check-label">
+                Once in a 6 months
+                </label>
+                <div class="form-check-inline">
+                <input class="form-check-input" type="radio" name
+                    `````````````````````   ```````````="timeA"  value="Once a year" required>
+                <label class="form-check-label">
+                Once a year
+                </label>   
+            </tr>
+         
+        
+      </table> 
+      <div class="text-end">
+      <input type="submit" class="btn btn-dark" value="submit" name="agreement">
+</div>
+       </form>
+    </div>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script>
+		var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+	</script>
+  </body>
+</html>

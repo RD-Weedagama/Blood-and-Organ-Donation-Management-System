@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+.back{
+    background-image: url(a.jpg);
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    z-index: -1;
+}
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.mid p{
+    color: #7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+.mid h2{
+    color: #fff;
+    font-size: 3rem;
+}
+.mid .btn{
+    margin-top: 2rem;
+}
+.mid .btn a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.mid .btn a.simple{
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+    border-radius: 3px;
+}
+.description{
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.description .one h1{
+	text-align: center;
+	padding-top: 80px;
+}
+.description .one h6{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: black;
+}
+
+	
+
+#navbarNav{
+
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+#col{
+	padding-left: 100px;
+	margin-left: 100pt;
+}
+#services{
+	background-color: #e4ecec;
+	padding: 30px 0px;
+}
+#services h1{
+	font-weight: 900;
+	font-size: 34px;
+	padding-bottom: 5px;
+}
+.title{
+	text-align: center;
+	padding: 25px 0px;
+}
+.card-body .p{
+	font-size: 18px;
+	text-align: center;
+   
+}
+.card-body{
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+.card{
+	margin: 20px 10px;
+}
+.container .row {
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

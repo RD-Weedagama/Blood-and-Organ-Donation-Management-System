@@ -1,0 +1,117 @@
+<?php require_once "controllerUserData.php"; ?>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Donee Signup</title>
+    <scriptsrc="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+	box-sizing: border-box;
+}
+.back{
+    background-image: url(b.jpg);
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    z-index: -1;
+}
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+
+    </style>
+
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="blood-8370.png" alt="" width="30" height="24" class="d-inline-block align-text-top">  
+          One Blood</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="main.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="for_donors.php">For Donors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="upcoming_campaigns.php">Upcoming Campaigns</a>
+            </li>
+            <li>
+              <div>
+                <a class="btn btn-primary" href="login-user.ph" role="button">Sign in</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <form method="select.php" action="get">
+        <div class="back">
+            <div class="overlay"></div>
+        </div>
+       
+            <div class="mid align-content-center">
+                <div class="container pt-lg-5">
+                    <div class="row">
+                        
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="blood.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Signup as a blood donee</h4>
+                              <p class="card-text">Who can get blood from blood donors is referred to as a blood donee.</p>
+                              <a href="signup-blood-donee.php" class="btn btn-primary w-25" data-bs-toggle="tooltip" data-bs-placement="bottom" title="රුධිර ග්‍රාහකයා"> Ok</a>
+
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="organ.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title">Signup as a organ donee</h4>
+                              <p class="card-text">Organ donees are those who are eligible to receive organs from organ donors.</p>
+                              
+                              
+                              <a href="signup-organ-donee.php" class="btn btn-primary w-25" data-bs-toggle="tooltip" data-bs-placement="bottom" title="අවයව ග්‍රාහකයා"> Ok</a>
+
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+           
+
+        </div>
+    </form>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+  </script>
+</body>
+</html>
